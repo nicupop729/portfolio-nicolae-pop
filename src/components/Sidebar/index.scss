@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .nav-bar {
   background: #181818;
   width: 60px;
@@ -10,7 +11,6 @@
   .logo {
     display: block;
     padding: 8px 0;
-
 
     img {
       display: block;
@@ -46,19 +46,6 @@
         transition: all 0.3s ease-out;
       }
 
-      &:hover {
-        color: #ffd700;
-
-
-        svg {
-          opacity: 0;
-        }
-
-        &::after {
-          opacity: 1;
-        }
-      }
-
       &::after {
         content: '';
         font-size: 9px;
@@ -71,6 +58,68 @@
         opacity: 0;
         transition: all 0.3s ease-out;
       }
+
+      &:hover {
+        color: #ffd700;
+
+        svg {
+          opacity: 0;
+        }
+
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      &:first-child {
+        &::after {
+          content: 'HOME';
+        }
+      }
+    }
+
+    a.about-link {
+      &::after {
+        content: 'ABOUT';
+      }
+    }
+
+    a.contact-link {
+      &::after {
+        content: 'CONTACT';
+      }
+    }
+
+    a.active {
+      svg {
+        color: #ffd700;
+      }
+    }
+  }
+
+  ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+      a {
+        padding: 7px;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+        color: #4d4d4e;
+
+        &:hover {
+          color: #ffd700;
+        }
+      }
     }
   }
 }
+/* stylelint-enable no-descending-specificity */
