@@ -15,7 +15,7 @@ const AnimatedLetters = ({ letterClass, strArray, idx }) => (
 
 AnimatedLetters.propTypes = {
   letterClass: PropTypes.string.isRequired,
-  strArray: PropTypes.objectOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
+  strArray: PropTypes.arrayOf(PropTypes.string).isRequired,
   idx: PropTypes.number.isRequired,
 };
 
