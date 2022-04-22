@@ -1,5 +1,6 @@
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
+
 import './index.scss';
 
 const AnimatedLetters = ({ letterClass, strArray, idx }) => (
@@ -11,5 +12,11 @@ const AnimatedLetters = ({ letterClass, strArray, idx }) => (
     ))}
   </span>
 );
+
+AnimatedLetters.propTypes = {
+  letterClass: PropTypes.string.isRequired,
+  strArray: PropTypes.objectOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
+  idx: PropTypes.number.isRequired,
+};
 
 export default AnimatedLetters;
