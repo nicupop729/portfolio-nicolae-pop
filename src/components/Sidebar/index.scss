@@ -1,12 +1,12 @@
 /* stylelint-disable no-descending-specificity */
 .nav-bar {
   background: #181818;
-  width: 60px;
+  width: 6rem;
   height: 100%;
   position: absolute;
   top: 0;
   z-index: 3;
-  min-height: 500px;
+  min-height: 50rem;
 
   .logo {
     display: block;
@@ -15,11 +15,11 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 24px;
+      width: 2.4rem;
       height: auto;
 
       &.sub-logo {
-        width: 50px;
+        width: 5rem;
       }
     }
   }
@@ -28,17 +28,17 @@
     display: block;
     text-align: center;
     position: absolute;
-    height: 210px;
+    height: 21rem;
     top: 50%;
-    margin-top: -120px;
+    margin-top: -12rem;
     width: 100%;
 
     a {
-      font-size: 22px;
+      font-size: 2.2rem;
       color: #4d4d4e;
       display: block;
-      height: 51px;
-      line-height: 51px;
+      height: 5.1rem;
+      line-height: 5.1rem;
       position: relative;
       text-decoration: none;
 
@@ -99,7 +99,7 @@
 
   ul {
     position: absolute;
-    bottom: 20px;
+    bottom: 2rem;
     width: 100%;
     display: block;
     padding: 0;
