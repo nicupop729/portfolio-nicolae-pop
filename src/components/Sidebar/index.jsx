@@ -5,6 +5,7 @@ import {
   faEnvelope, faFolder, faHome, faUser,
 } from '@fortawesome/free-solid-svg-icons';
 import {
+  faAngellist,
   faGithub,
   faLinkedin,
   faSkype,
@@ -65,6 +66,15 @@ const Sidebar = () => (
           href="https://github.com/nicupop729"
         >
           <FontAwesomeIcon icon={faGithub} color="4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://angel.co/u/nicupop729"
+        >
+          <FontAwesomeIcon icon={faAngellist} color="4d4d4e" />
         </a>
       </li>
       <li>
