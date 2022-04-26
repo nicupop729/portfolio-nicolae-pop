@@ -1,7 +1,7 @@
 /* stylelint-disable no-descending-specificity */
 .nav-bar {
   background: #181818;
-  width: 6rem;
+  width: 8rem;
   height: 100%;
   position: absolute;
   top: 0;
@@ -81,6 +81,12 @@
     a.about-link {
       &::after {
         content: 'ABOUT';
+      }
+    }
+
+    a.portfolio-link {
+      &::after {
+        content: 'PORTFOLIO';
       }
     }
 
