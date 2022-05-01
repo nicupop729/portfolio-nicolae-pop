@@ -1,8 +1,21 @@
-.portfolio-title {
-  font-size: large;
-  font-weight: bold;
-  margin-top: 20vh;
-  margin-bottom: 1rem;
-  color: #fff;
-  text-align: center;
+.portfolio-page {
+  .projects-container {
+    width: 80%;
+    height: 100%;
+    top: 0;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+
+    .projects-list {
+      margin-top: 7rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+      grid-template-rows: repeat(auto-fill, minmax(40rem, 1fr));
+      animation: backInRight 1s 1.2s;
+      animation-fill-mode: forwards;
+      position: relative;
+    }
+  }
 }
