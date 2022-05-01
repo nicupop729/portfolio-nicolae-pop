@@ -63,8 +63,6 @@ const Contact = () => {
       );
   };
 
-  // const newLocal = ' ';
-
   return (
     <>
       <div className="container contact-page">
