@@ -1,0 +1,61 @@
+.project {
+  .project-container {
+    width: 40rem;
+    height: 25rem;
+
+    .project-image {
+      width: 100%;
+      height: 100%;
+      border-radius: 25px;
+    }
+
+    .project-button {
+      display: none;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all 0.3s ease-out;
+      color: #ffd700;
+
+      img {
+        display: none;
+        transition: all 0.3s ease-out;
+      }
+
+      &::after {
+        display: block;
+      }
+
+      .image-on-hover {
+        background-color: #ffd700;
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .project-button {
+          display: block;
+          background-color: #ffd700;
+          border: 1px solid #0c2c43;
+          border-radius: 25px;
+          padding: 1rem 3rem;
+          cursor: pointer;
+          color: #0c2c43;
+          font-size: 1.5rem;
+
+          &:hover {
+            background-color: #0c2c43;
+            color: #ffd700;
+          }
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
