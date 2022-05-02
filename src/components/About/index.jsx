@@ -37,15 +37,55 @@ const About = () => {
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I&apos;m very confident, naturally curious, and perpetually
-            working on improving my skills & knowledge with one line of code at
-            a time.
+            I&apos;m very confident, naturally curious, and perpetually working
+            on improving my skills & knowledge with one line of code at a time.
           </p>
           <p>
             If I need to define myself in one sentence, that would be a
             discoverer, an adventurer, a nature-sights lover, photography
             enthusiast, and tech-obsessed!!!
           </p>
+          <div className="about-technologies">
+            <h3>I hold good expertise in the following technologies:</h3>
+            <div className="about-technologies-list">
+              <div>
+                <h4>Front-End</h4>
+                <ul>
+                  <li>HTML & CSS (SCSS)</li>
+                  <li>JavaScript (ES6)</li>
+                  <li>TypeScript</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>React Router</li>
+                  <li>Material UI</li>
+                  <li>Testing with Jest & Mocha</li>
+                  <li>Webpack</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Back-End</h4>
+                <ul>
+                  <li>Ruby</li>
+                  <li>Ruby on Rails</li>
+                  <li>PostgreSQL</li>
+                  <li>RSpec & Capybara</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Environment</h4>
+                <ul>
+                  <li>git</li>
+                  <li>npm</li>
+                  <li>GitHub</li>
+                  <li>Heroku</li>
+                  <li>Netlify</li>
+                  <li>Linters</li>
+                  <li>Code Reviews</li>
+                  <li>Pair-programming</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="stage-cube-cont">

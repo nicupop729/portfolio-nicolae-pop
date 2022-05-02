@@ -1,3 +1,14 @@
+.about-technologies {
+  color: #ffd700;
+  font-size: medium;
+  font-weight: bold;
+
+  .about-technologies-list {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
 .stage-cube-cont {
   width: 50%;
   height: 100%;
