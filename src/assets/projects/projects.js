@@ -1,9 +1,9 @@
 import awesomeBooksImg from '../projects-screenshots/awesome-books.jpg';
 import worldCountriesImg from '../projects-screenshots/countries-world.png';
 import exhibitionProjectImg from '../projects-screenshots/exhibition-project.jpg';
-import leaderboard from '../projects-screenshots/leaderboard.jpg';
 import threePizzaGuyzz from '../projects-screenshots/Three-Pizza-Guyzz.jpg';
 import travellersHub from '../projects-screenshots/travellers-hub-home-page.png';
+import forWheels from '../projects-screenshots/for-wheels.png';
 
 const projects = [
   {
@@ -23,22 +23,22 @@ const projects = [
     gitHubRepo: 'https://github.com/codepantherr/Awesome-Books',
   },
   {
-    name: 'Leaderboard for Game Snake',
+    name: 'For Wheels',
     description:
-      'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. The leaderboard website displays scores submitted by different players. It also allows you to submit your score.',
-    projectImg: leaderboard,
+      'An app for a luxury renting cars agency: For Wheels! This SPA takes the information from the back-end API developed by us and, accordingly to the user interaction, consumes it and renders the data on the UI.',
+    projectImg: forWheels,
     technologies: [
-      'HTML',
-      'CSS',
+      'React',
+      'Redux',
       'JavaScript',
-      'GitHub',
-      'Webpack',
+      'git',
+      'Tailwind',
       'Terminal',
-      'GitFlow',
-      'API',
+      'Linters',
+      'Fetch API',
     ],
-    liveVersion: 'https://leaderboard-snake-game.netlify.app/',
-    gitHubRepo: 'https://github.com/nicupop729/Leaderboard',
+    liveVersion: 'https://for-wheels.netlify.app/',
+    gitHubRepo: 'https://github.com/nicupop729/for_wheels',
   },
   {
     name: 'Exhibition - Ancient Egypt',
