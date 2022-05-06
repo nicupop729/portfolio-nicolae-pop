@@ -19,8 +19,8 @@ const projects = [
       'Terminal',
       'Local Storage',
     ],
-    liveVersion: 'https://codepantherr.github.io/Awesome-Books/',
-    gitHubRepo: 'https://github.com/codepantherr/Awesome-Books',
+    liveVersion: 'https://codepantha.github.io/Awesome-Books/',
+    gitHubRepo: 'https://github.com/codepantha/Awesome-Books',
   },
   {
     name: 'For Wheels',
