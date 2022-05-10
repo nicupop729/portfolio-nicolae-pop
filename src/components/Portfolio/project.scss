@@ -2,10 +2,12 @@
   .project-container {
     width: 40rem;
     height: 25rem;
+    display: flex;
+    justify-content: center;
 
     .project-image {
-      width: 100%;
-      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
       border-radius: 25px;
     }
 

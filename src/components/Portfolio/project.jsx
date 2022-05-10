@@ -23,7 +23,7 @@ const Project = ({
             className="project-button"
             onClick={() => setModalIsOpen(true)}
           >
-            See Project
+            See the project details
           </button>
         </div>
       </div>

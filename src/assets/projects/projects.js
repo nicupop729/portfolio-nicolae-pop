@@ -1,4 +1,4 @@
-import awesomeBooksImg from '../projects-screenshots/awesome-books.jpg';
+import expenseKeeper from '../projects-screenshots/expense-keeper.png';
 import worldCountriesImg from '../projects-screenshots/countries-world.png';
 import exhibitionProjectImg from '../projects-screenshots/exhibition-project.jpg';
 import threePizzaGuyzz from '../projects-screenshots/Three-Pizza-Guyzz.jpg';
@@ -6,22 +6,6 @@ import travellersHub from '../projects-screenshots/travellers-hub-home-page.png'
 import forWheels from '../projects-screenshots/for-wheels.png';
 
 const projects = [
-  {
-    name: 'Awesome Books',
-    description:
-      'A basic website built using HTML, CSS and JavaScript that allows users to add and remove awesome books to or from a list',
-    projectImg: awesomeBooksImg,
-    technologies: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'GitHub',
-      'Terminal',
-      'Local Storage',
-    ],
-    liveVersion: 'https://codepantha.github.io/Awesome-Books/',
-    gitHubRepo: 'https://github.com/codepantha/Awesome-Books',
-  },
   {
     name: 'For Wheels',
     description:
@@ -41,13 +25,22 @@ const projects = [
     gitHubRepo: 'https://github.com/nicupop729/for_wheels',
   },
   {
-    name: 'Exhibition - Ancient Egypt',
+    name: "Space Travellers' Hub",
     description:
-      'This project is about an art Exhibition titled "Exhibition 2022 — London: Ancient Egypt" hold next year in London UK. The work was ordered by Global Exhibitions LTD UK.',
-    projectImg: exhibitionProjectImg,
-    technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Terminal'],
-    liveVersion: 'https://nicupop729.github.io/Exhibition-Page/',
-    gitHubRepo: 'https://github.com/nicupop729/Exhibition-Page',
+      'This application works with real live data from the SpaceX API. It was built for a company that provides commercial and scientific space travel services. It allows users to book rockets and join selected space missions. The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking. The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.',
+    projectImg: travellersHub,
+    technologies: [
+      'JavaScript',
+      'React',
+      'React-thunk',
+      'Redux',
+      'CSS',
+      'GitHub',
+      'Jest-test',
+      'GitFlow',
+    ],
+    liveVersion: 'https://space-travellers-hub-react-redux.netlify.app/',
+    gitHubRepo: 'https://github.com/nicupop729/space-travellers-hub',
   },
   {
     name: 'Three Pizza Guyzz',
@@ -68,22 +61,30 @@ const projects = [
     gitHubRepo: 'https://github.com/nicupop729/Three-Pizza-Guyzz-JS-Capstone',
   },
   {
-    name: "Space Travellers' Hub",
+    name: 'Exhibition - Ancient Egypt',
     description:
-      'This application works with real live data from the SpaceX API. It was built for a company that provides commercial and scientific space travel services. It allows users to book rockets and join selected space missions. The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking. The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.',
-    projectImg: travellersHub,
+      'This project is about an art Exhibition titled "Exhibition 2022 — London: Ancient Egypt" hold next year in London UK. The work was ordered by Global Exhibitions LTD UK.',
+    projectImg: exhibitionProjectImg,
+    technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Terminal'],
+    liveVersion: 'https://exhibition-page.netlify.app/',
+    gitHubRepo: 'https://github.com/nicupop729/Exhibition-Page',
+  },
+  {
+    name: 'Expense Keeper',
+    description:
+      'ExpenseKeeper is an app built with Ruby on Rails using the MVC architecture. The app allows users to track their expenses while grouping them into categories.',
+    projectImg: expenseKeeper,
     technologies: [
-      'JavaScript',
-      'React',
-      'React-thunk',
-      'Redux',
       'CSS',
+      'Ruby',
+      'Ruby on Rails',
+      'PostgreSQL',
+      'Gitflow',
       'GitHub',
-      'Jest-test',
-      'GitFlow',
+      'Terminal',
     ],
-    liveVersion: 'https://space-travellers-hub-react-redux.netlify.app/',
-    gitHubRepo: 'https://github.com/nicupop729/space-travellers-hub',
+    liveVersion: 'https://expensekeeper-nicu.herokuapp.com/',
+    gitHubRepo: 'https://github.com/nicupop729/expense-keeper',
   },
   {
     name: 'World Countries',
