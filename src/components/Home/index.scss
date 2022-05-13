@@ -1,0 +1,80 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 5.3rem;
+    margin: 0;
+    font-family: 'Coolvetica', sans-serif;
+    font-weight: 400;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 1.8rem;
+      position: absolute;
+      margin-top: -4rem;
+      left: 1.5rem;
+      opacity: 0.6;
+    }
+
+    &::after {
+      content: '</h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 1.8rem;
+      position: absolute;
+      margin-top: 1.8rem;
+      margin-left: 2rem;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+
+    img {
+      width: 4.8rem;
+      margin-left: 2rem;
+      opacity: 0;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    color: #8d8d8d;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: #ffd700;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 1rem 1.8rem;
+    border: 1px solid #ffd700;
+    margin-top: 2.5rem;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: #ffd700;
+      color: #333;
+    }
+  }
+}
