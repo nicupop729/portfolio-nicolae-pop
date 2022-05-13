@@ -1,6 +1,6 @@
 import expenseKeeper from '../projects-screenshots/expense-keeper.png';
 import worldCountriesImg from '../projects-screenshots/countries-world.png';
-import exhibitionProjectImg from '../projects-screenshots/exhibition-project.jpg';
+import crwnClothes from '../projects-screenshots/crwn-clothes.png';
 import threePizzaGuyzz from '../projects-screenshots/Three-Pizza-Guyzz.jpg';
 import travellersHub from '../projects-screenshots/travellers-hub-home-page.png';
 import forWheels from '../projects-screenshots/for-wheels.png';
@@ -23,6 +23,22 @@ const projects = [
     ],
     liveVersion: 'https://for-wheels.netlify.app/',
     gitHubRepo: 'https://github.com/nicupop729/for_wheels',
+  },
+  {
+    name: 'Crwn Clothing',
+    description:
+      'CRWN Clothing is a SPA of an online store cloths app. The app is using Firebase for authentication and for database.',
+    projectImg: crwnClothes,
+    technologies: [
+      'React',
+      'JavaScript',
+      'CSS',
+      'Styled-Components',
+      'GitHub',
+      'Terminal',
+    ],
+    liveVersion: 'https://react-app-crwn-clothing.netlify.app/',
+    gitHubRepo: 'https://github.com/nicupop729/crwn-clothing',
   },
   {
     name: "Space Travellers' Hub",
@@ -59,15 +75,6 @@ const projects = [
     ],
     liveVersion: 'https://three-pizza-guyzz.netlify.app/',
     gitHubRepo: 'https://github.com/nicupop729/Three-Pizza-Guyzz-JS-Capstone',
-  },
-  {
-    name: 'Exhibition - Ancient Egypt',
-    description:
-      'This project is about an art Exhibition titled "Exhibition 2022 — London: Ancient Egypt" hold next year in London UK. The work was ordered by Global Exhibitions LTD UK.',
-    projectImg: exhibitionProjectImg,
-    technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Terminal'],
-    liveVersion: 'https://exhibition-page.netlify.app/',
-    gitHubRepo: 'https://github.com/nicupop729/Exhibition-Page',
   },
   {
     name: 'Expense Keeper',
